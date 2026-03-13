@@ -1,0 +1,45 @@
+name: virundhu
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  font_awesome_flutter: ^10.7.0
+  lottie: ^3.1.0
+  supabase_flutter: ^2.9.0
+  image_picker: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/lottie/
+    - web/icons/
+    - assets/food/
+    - assets/offers/
+
+# ----------------------------------------------------
+#  APP ICON CONFIGURATION
+# ----------------------------------------------------
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "web/icons/virundhu.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "web/icons/virundhu.png"
+  min_sdk_android: 21
