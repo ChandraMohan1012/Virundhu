@@ -747,6 +747,19 @@ class _HomeScreenState extends State<HomeScreen>
                 if (mounted) Navigator.pop(context);
               },
             ),
+
+          Padding(
+            padding: const EdgeInsets.fromLTRB(16, 8, 16, 20),
+            child: Text(
+              'Developed by Chamo',
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontSize: 12,
+                color: Colors.grey.shade600,
+                fontStyle: FontStyle.italic,
+              ),
+            ),
+          ),
         ],
       ),
     );
